@@ -103,7 +103,7 @@
 						<div class="panel-heading">
 							<a href="mensaje_insert.php" class="btn btn-xs btn-success">
 								<span class="glyphicon glyphicon-plus"></span>
-								Crear Categoría
+								Crear Mensaje
 							</a>
 							<a href="#" class="btn btn-xs btn-default" onclick="loadDataCategoria()" >
 								<span class="glyphicon glyphicon-refresh"></span>
