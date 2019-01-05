@@ -119,64 +119,36 @@
 					</div>
 				</div>
 
-			<div class="col-md-12">
-				<div class="panel panel-default">
-					<div class="panel-heading">
-						Lista de mensaje
+			<div class="col-md-12"  id="">
 
-						<!-- Button trigger modal -->
-						<!--button type="button" class="btn btn-xs btn-primary" data-toggle="modal" data-target="#exampleModalLong">
-						  Crear nuevo mensaje
-						</button-->
-						<!-- btn trigger modal  -->
-					</div>
-					<div class="panel-body">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							Lista de mensajes
+						</div>
+						<div class="panel-body">
+
+							<!-- table -->
 							<table data-toggle="table" data-show-refresh="true" data-show-toggle="true" data-show-columns="true" data-search="true" data-select-item-name="toolbar1" data-pagination="true" data-sort-name="name" data-sort-order="desc">
 							    <thead>
 								    <tr>
-								        <th>Codigo</th>
+								        <th>Cod</th>
 								        <th style="text-transform: uppercase">Mensaje</th>
 								        <th style="text-transform: uppercase">Opciones</th>
 								    </tr>
 							    </thead>
-							    <tbody>
-									<?php 
-										include ('credenciales.php');
-										// Create connection
-										$conn = new mysqli($servername, $username, $password, $dbname);
-										// Check connection
-										if ($conn->connect_error) {
-										    die("Connection failed: " . $conn->connect_error);
-										} 
+							    <tbody id="dataMensaje" style="transition: all 1s">
 
-										$sql = "SELECT * FROM tb_mensaje";
-										$result = $conn->query($sql);
+								<?php 
+									include ('mensajegetdata.php');
+								?>
 
-										if ($result->num_rows > 0) {
-										    // output data of each row
-										    while($row = $result->fetch_assoc()) {
-										        echo "
-											        <tr>
-											        	<td>".$row['intidmensaje']."</td>
-											        	<td>".$row['nvchmensaje']."</td>
-											        	<td>
-											        		<a href='mensaje_editar.php?codigo=".$row['intidmensaje']."' class='btn btn-success btn-xs'>Editar</a>
-											        		<a href='mensaje_eliminar.php?codigo=".$row['intidmensaje']."' class='btn btn-danger btn-xs'>Eliminar</a>
-											        		<!--a href='.php?codigo=".$row['intidmensaje']."' class='btn btn-default btn-xs'>Eliminar</a-->
-											        	</td>
-											        </tr>
-										        ";
-										    }
-										} else {
-										    echo "Sin resultados aun";
-										}
-										$conn->close();
-									?>
 								</tbody>
-			                    </table>
+							</table>
+							<!-- END table -->
+
+						</div>
 					</div>
 				</div>
-			</div>
 		</div>
 
 		<script src="js/jquery-1.11.1.min.js"></script>
@@ -208,6 +180,20 @@
 			$(document).ready(function(){
 			    $('[data-toggle="tooltip"]').tooltip(); 
 			});
+		</script>
+		<script>
+		    // load data
+		    function loadDataCategoria() {
+		      var xhttp = new XMLHttpRequest();
+		      xhttp.onreadystatechange = function() {
+		        if (this.readyState == 4 && this.status == 200) {
+		        	document.getElementById("dataMensaje").innerHTML = this.responseText;
+		        }
+		      };
+		      xhttp.open("GET", "mensajegetdata.php", true);
+		      xhttp.send();
+
+		    }
 		</script>
 </body>
 
