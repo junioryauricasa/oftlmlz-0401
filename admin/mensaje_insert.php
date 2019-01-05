@@ -126,11 +126,11 @@
 						<form action="funciones/mensaje_insert.php" method="POST">
 						  <div class="form-group">
 						    <!--label for="exampleInputEmail1">Ingrese Mensaje</label-->
-						    <input type="text" class="form-control" id="categorias" name="categorias" aria-describedby="emailHelp" placeholder="Ingresar mensaje personalizado" value="" required="true">
+						    <input type="text" class="form-control" id="mensaje" name="mensaje" aria-describedby="emailHelp" placeholder="Ingresar mensaje personalizado" value="" required="true">
 						    <small id="emailHelp" class="form-text text-muted"> Sea prudente al realizar el registro</small>
 						  </div>
 						  <button type="submit" name="insertar" class="btn btn-xs btn-info">Registrar</button>
-						  <a href="categorias.php" class="btn btn-xs btn-danger">Ver Tabla</a>
+						  <a href="mensaje.php" class="btn btn-xs btn-danger">Ver Tabla</a>
 						</form>
 					</div>
 						
