@@ -88,18 +88,17 @@
 						<div class="panel-heading">
 							<a href="categorias_insert.php" class="btn btn-xs btn-success">
 								<span class="glyphicon glyphicon-plus"></span>
-								Crear Categoría
+								Crear Categoria
 							</a>
 							<a href="#" class="btn btn-xs btn-default" onclick="loadDataCategoria()" >
 								<span class="glyphicon glyphicon-refresh"></span>
 								Refrescar Tabla
 							</a>
 
-
-		<!-- Confirmar Eliminar Modal? -->
-		<button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#myModal">
-		  Launch demo modal
-		</button>
+							<!-- Confirmar Eliminar Modal? -->
+							<!--button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#myModal">
+							  Launch demo modal
+							</button-->
 
 						</div>
 					</div>
@@ -184,6 +183,5 @@
 		</script>
 
 </body>
-
 
 </html>

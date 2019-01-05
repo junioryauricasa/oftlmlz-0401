@@ -88,17 +88,37 @@
 		</div>
 
 		<div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main col-md-12">	
-			<div class="col-md-12">
+			<!--div class="col-md-12">
 				<div class="panel panel-default">
 					<div class="panel-heading">
-						<!-- Button trigger modal -->
 						<button type="button" class="btn btn-xs btn-primary" data-toggle="modal" data-target="#exampleModalLong">
 						  Crear nuevo mensaje
 						</button>
-						<!-- btn trigger modal  -->
 					</div>
 				</div>
-			</div>
+			</div-->
+			
+			<div class="col-md-12">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<a href="mensaje_insert.php" class="btn btn-xs btn-success">
+								<span class="glyphicon glyphicon-plus"></span>
+								Crear Categoría
+							</a>
+							<a href="#" class="btn btn-xs btn-default" onclick="loadDataCategoria()" >
+								<span class="glyphicon glyphicon-refresh"></span>
+								Refrescar Tabla
+							</a>
+
+							<!-- Confirmar Eliminar Modal? -->
+							<!--button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#myModal">
+							  Launch demo modal
+							</button-->
+
+						</div>
+					</div>
+				</div>
+
 			<div class="col-md-12">
 				<div class="panel panel-default">
 					<div class="panel-heading">
