@@ -9,11 +9,11 @@
 	<li class="">
 		<a href="categorias.php"><span class="glyphicon glyphicon-thumbs-up"></span>Categorias</a>
 	</li>
-	<li>
-		<a href="mensaje.php"><span class="glyphicon glyphicon-log-out"></span>Registrar Mensaje</a>
-	</li>
 	<li class="">
 		<a href="mensaje.php"><span class="glyphicon glyphicon-user"></span>Mensaje</a>
+	</li>
+	<li class="">
+		<a href="contenido.php"><span class="glyphicon glyphicon-user"></span>Contenido</a>
 	</li>
 	<li class="">
 		<a href="users.php"><span class="glyphicon glyphicon-user"></span>Users</a>
