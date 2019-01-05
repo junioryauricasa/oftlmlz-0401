@@ -211,6 +211,6 @@
 		</script>
 </body>
 
-<?php include ('mensaje_insert.php') // invocacion al formulario insert?>
+<?php //include ('mensaje_insert.php') // invocacion al formulario insert?>
 
 </html>
