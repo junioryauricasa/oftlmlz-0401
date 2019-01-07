@@ -86,7 +86,7 @@
 				<div class="col-md-12">
 					<div class="panel panel-default">
 						<div class="panel-heading">
-							<a href="categorias_insert.php" class="btn btn-xs btn-success">
+							<a href="contenido_insert.php" class="btn btn-xs btn-success">
 								<span class="glyphicon glyphicon-plus"></span>
 								Crear Contenido
 							</a>
@@ -116,14 +116,19 @@
 							    <thead>
 								    <tr>
 								        <th>Cod</th>
+								        <th style="text-transform: uppercase">Titulo</th>
+								        <th style="text-transform: uppercase">Contenido</th>
+								        <th style="text-transform: uppercase">Img</th>
+								        <th style="text-transform: uppercase">Date</th>
 								        <th style="text-transform: uppercase">Categoria</th>
-								        <th style="text-transform: uppercase">Opciones</th>
+								        <th style="text-transform: uppercase">Estado</th>Categoria</th>
+								        <th style="text-transform: uppercase">Opciones</th>								       
 								    </tr>
 							    </thead>
 							    <tbody id="dataCategorias" style="transition: all 1s">
 
 								<?php 
-									include ('categoriagetdata.php');
+									include ('contenidogetdata.php');
 								?>
 
 								</tbody>
@@ -176,7 +181,7 @@
 		        	document.getElementById("dataCategorias").innerHTML = this.responseText;
 		        }
 		      };
-		      xhttp.open("GET", "categoriagetdata.php", true);
+		      xhttp.open("GET", "contenidogetdata.php", true);
 		      xhttp.send();
 
 		    }
