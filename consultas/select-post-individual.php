@@ -2,12 +2,7 @@
 <?php
 	//select-post-individual.php
 	
-	
-	$servername = "localhost";
-	$username = "root";
-	$password = "";
-	$dbname = "db_modular";
-	
+	include ("admin/credenciales.php");
 /*
 	//coneccion db
 	$servername = "142.44.240.81";

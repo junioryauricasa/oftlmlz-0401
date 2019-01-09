@@ -2,13 +2,8 @@
 <?php
 	//select-convenio.php
 	
+	include ("admin/credenciales.php");
 	
-	$servername = "localhost";
-	$username = "root";
-	$password = "";
-	$dbname = "db_modular";
-	
-
 /*
 	//coneccion db
 	$servername = "142.44.240.81";

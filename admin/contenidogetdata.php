@@ -23,8 +23,8 @@
 	        echo "
 		        <tr>
 		        	<td>CONT".$row['indidblog']."</td>
-		        	<td><b>".$row['nvchtituloblog']."</b><br>".$row['nvchcontenido']."</td>		        	
-		        	<td><a href='".$row['nvchimg']."' class='btn btn-xs btn-default'>Enlace Img</a></td>
+		        	<td><b>".$row['nvchtituloblog']."</b><br><p class='truncate'>".$row['nvchcontenido']."</p></td>		        	
+		        	<td><a target='_blank' href='".$row['nvchimg']."' class='btn btn-xs btn-default'>Enlace Img</a></td>
 		        	<td>".$row['nvchdate']."</td>
 		        	<td>".$row['nvchcategoria']."</td>
 		        	<td>".$row['btestado']."</td>
@@ -68,3 +68,14 @@
 				window.location.href = "mensaje_eliminar.php?codigo="+cod+"";
 			}
 		</script>
+
+		<!-- STYLE	 -->
+		<style>
+			.truncate {
+			  width: 450px;
+			  height: 60px;
+			  white-space: nowrap;
+			  overflow: hidden;
+			  text-overflow: ellipsis;
+			}
+		</style>

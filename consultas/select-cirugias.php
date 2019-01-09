@@ -2,11 +2,7 @@
 <?php
 	//select-cirugias.php
 	
-	$servername = "localhost";
-	$username = "root";
-	$password = "";
-	$dbname = "db_modular";
-	
+	include ("admin/credenciales.php");
 
 /*
 	//coneccion db

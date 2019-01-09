@@ -8,7 +8,7 @@ $codigopost = $_GET["codigo"] ;
 ?>
 
 <!-- end header -->
-<section id="content" style="margin-top: 60px">
+<section id="content" style="margin-top: 75px">
 	<div class="container">
 		<!-- Titulo page -->
 		<!--div class="row">
@@ -24,10 +24,7 @@ $codigopost = $_GET["codigo"] ;
 <?php
 	//select-post-individual.php
 	
-	$servername = "localhost";
-	$username = "root";
-	$password = "";
-	$dbname = "db_modular";
+	include ("admin/credenciales.php");
 
 	// Create connection
 	$conn = new mysqli($servername, $username, $password, $dbname);
@@ -58,8 +55,13 @@ $codigopost = $_GET["codigo"] ;
 								<i class="icon-calendar"></i>
 								<a href="#">'.$row["nvchdate"].'</a>
 							</li>
-							<li><i class="icon-comments"></i><a href="#">Comentarios</a></li>
+							<!--li><i class="icon-comments"></i><a href="#">Comentarios</a></li-->
 						</ul>
+					</div>
+					<div>
+					<!—- ShareThis BEGIN -—>
+					<div class="sharethis-inline-share-buttons"></div><script async src="//platform-api.sharethis.com/js/sharethis.js#property=5c33014da47fe500116a8e66&product="inline-share-buttons"></script>
+					<!—- ShareThis END -—>
 					</div>
 				</article>
 

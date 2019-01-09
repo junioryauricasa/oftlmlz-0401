@@ -1,10 +1,7 @@
 <!-- Select mensajes marque -->
 <?php
 	
-	$servername = "localhost";
-	$username = "root";
-	$password = "";
-	$dbname = "db_modular";
+	include ("admin/credenciales.php");
 
 /*
 	//coneccion db

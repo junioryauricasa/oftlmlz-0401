@@ -13,7 +13,7 @@
 	<link href="css/styles.css" rel="stylesheet">
 
 </head>
-<body style="padding-top: 70px">
+<body style="padding-top: 70px" onload="loadDataCategoria()">
 		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 			<div class="container-fluid">
 				<div class="navbar-header">
@@ -90,7 +90,7 @@
 								<span class="glyphicon glyphicon-plus"></span>
 								Crear Contenido
 							</a>
-							<a href="#" class="btn btn-xs btn-default" onclick="loadDataCategoria()" >
+							<a href="#" class="btn btn-xs btn-default" id="btn-refresh" onclick="loadDataCategoria()" >
 								<span class="glyphicon glyphicon-refresh"></span>
 								Refrescar Tabla
 							</a>
@@ -116,12 +116,11 @@
 							    <thead>
 								    <tr>
 								        <th>Cod</th>
-								        <th style="text-transform: uppercase">Titulo</th>
 								        <th style="text-transform: uppercase">Contenido</th>
 								        <th style="text-transform: uppercase">Img</th>
 								        <th style="text-transform: uppercase">Date</th>
 								        <th style="text-transform: uppercase">Categoria</th>
-								        <th style="text-transform: uppercase">Estado</th>Categoria</th>
+								        <th style="text-transform: uppercase">Estado</th>
 								        <th style="text-transform: uppercase">Opciones</th>								       
 								    </tr>
 							    </thead>
