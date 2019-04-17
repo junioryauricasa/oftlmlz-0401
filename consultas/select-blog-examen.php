@@ -33,9 +33,9 @@
 							<h3><a href="#">'.$row["nvchtituloblog"].'</a> <span style="font-size: 15px"> ('.$row["nvchdate"].')</span></h3>
 						</div>
 
-						<div class="post-image">
+						<!--div class="post-image">
 							<img src="'.$row["nvchimg"].'" alt="" width="100%"/>
-						</div>
+						</div-->
 
 						<p class="overflow-ellipsis">
 							'.$row["nvchcontenido"].'

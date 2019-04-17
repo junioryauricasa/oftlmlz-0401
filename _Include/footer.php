@@ -1,7 +1,7 @@
 	<footer>
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-4">
+				<div class="col-lg-4 col-md-6">
 					<div class="widget" style="font-weight: bolder !important">
 						<!--h5 class="widgetheading">Dirección</h5-->
 						<address>
@@ -18,8 +18,8 @@
 						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d975.4042670667462!2d-75.21101967078957!3d-12.069847188008115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x910e964fb6ce61bb%3A0xd8599c5f105dbe8a!2sJir%C3%B3n+Lima+389%2C+Huancayo+12000!5e0!3m2!1ses!2spe!4v1540495338711" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 					</div>
 				</div>
-				<div class="col-lg-4">
-					<div class="widget">
+				<div class="col-lg-4 col-md-6">
+					<div class="widget" style="font-weight: bolder !important">
 						<strong>
 							La Merced
 						</strong>
@@ -38,7 +38,7 @@
 						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d344.8839950450314!2d-75.21039190582704!3d-12.049232593472386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x910e963029d4c887%3A0x7f1301a70f525d0b!2sAv+Circunvalaci%C3%B3n+489%2C+Huancayo!5e0!3m2!1ses!2spe!4v1540494702774" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 					</div>
 				</div>
-				<div class="col-lg-4">
+				<div class="col-lg-4 col-md-6">
 					<!--div class="widget">
 						<h5 class="widgetheading">Páginas</h5>
 						<ul class="link-list">
@@ -130,6 +130,25 @@
 </script>
 <!-- /WhatsHelp.io widget -->
 
+<!-- Load Facebook SDK for JavaScript -->
+<!--div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+<div class="fb-customerchat"
+  attribution=setup_tool
+  page_id="309461899258968"
+  theme_color="#0084ff"
+  logged_in_greeting="Hola, te saluda el Dr. Henry Alcántara - Oftalmoluz, como puedo ayudarte? "
+  logged_out_greeting="Hola, te saluda el Dr. Henry Alcántara - Oftalmoluz, como puedo ayudarte? ">
+</div-->
+
 <script>
 	jQuery(document).ready(function($) {
 		//Google Map
@@ -172,5 +191,11 @@
 <!-- Wow slider libraries -->
 <script type="text/javascript" src="engine1/wowslider.js"></script>
 <script type="text/javascript" src="engine1/script.js"></script>
+
+
+<!-- evitar cliock derecho -->
+<script type="text/javascript">
+//document.oncontextmenu = function(){return false;}
+</script>
 
 </html>

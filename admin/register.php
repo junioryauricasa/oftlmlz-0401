@@ -82,7 +82,7 @@
 </head>
 <body>
 
-<nav class="navbar navbar-default" role="navigation">
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 	<div class="container-fluid">
 		<!-- add header -->
 		<div class="navbar-header">
@@ -92,7 +92,11 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="index.php" style="">Hoteltopia</a>
+			<a class="navbar-brand" href="index.php" style="">
+				<b>
+					Oftalmoluz
+				</b>
+			</a>
 		</div>
 		<!-- menu items -->
 		<div class="collapse navbar-collapse" id="navbar1">
@@ -104,12 +108,12 @@
 	</div>
 </nav>
 
-<div class="container">
-	<div class="row">
-		<div class="col-md-4 col-md-offset-4 well">
+<div class="container" style="padding-top: 70px; padding-bottom: 20px">
+	<div class="">
+		<div class="col-md-4 col-md-offset-4 well" style="border: 0px">
 			<form role="form" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post" name="signupform">
 				<fieldset>
-					<legend>Registro Admin</legend>
+					<legend>Registro</legend>
 
 					<div class="form-group">
 						<label for="name">Generales</label>

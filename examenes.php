@@ -17,7 +17,7 @@
 
 <!-- body container -->
 
-<section id="content" style="margin-top: 0px">
+<section id="content" style="margin-top: 50px">
 	<div class="container">
 		<!-- Titulo page -->
 		<div class="row">
@@ -131,12 +131,12 @@
 				</article-->
 
 				<!-- pagination -->
-				<div id="pagination">
-					<span class="all">Page 1 of 3</span>
+				<!--div id="pagination">
+					<span class="all">Página 1 de 3</span>
 					<span class="current">1</span>
 					<a href="#" class="inactive">2</a>
 					<a href="#" class="inactive">3</a>
-				</div>
+				</div-->
 
 			</div>
 			<div class="col-lg-4">
@@ -160,7 +160,7 @@
 							<?php include('consultas/select-cirugias.php'); ?>
 						</ul>
 					</div>
-					<div class="widget">
+					<!--div class="widget">
 						<h5 class="widgetheading">Ultimas Publicaciones</h5>
 						<ul class="recent">
 							<li>
@@ -195,7 +195,7 @@
 							<li><a href="#">Etiqueta 1</a></li>
 							<li><a href="#">Etiqueta 1</a></li>
 						</ul>
-					</div>
+					</div-->
 				</aside>
 			</div>
 		</div>

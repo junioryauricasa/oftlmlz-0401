@@ -7,13 +7,10 @@
 <head>
 	<title>Inicio | Panel de Control</title>
 	<meta content="width=device-width, initial-scale=1.0" name="viewport" >
-	
-
-<link href="css/bootstrap.min.css" rel="stylesheet">
-<link href="css/datepicker3.css" rel="stylesheet">
-<link href="css/bootstrap-table.css" rel="stylesheet">
-<link href="css/styles.css" rel="stylesheet">
-
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/datepicker3.css" rel="stylesheet">
+	<link href="css/bootstrap-table.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
 </head>
 <body style="padding-top: 70px">
 
@@ -26,7 +23,9 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#">Oftalmoluz</a>
+				<a class="navbar-brand" href="#">
+					<img src="" alt="">
+				</a>
 			</div>
 			<!--div class="collapse navbar-collapse" id="navbar1">
 				<ul class="nav navbar-nav navbar-right">
@@ -50,7 +49,7 @@
 			<form role="search">
 				<div class="form-group center" style="text-align:center">
 					<!--input type="text" class="form-control" placeholder="Search"-->
-					<img src="https://oftalmoluz.com/junioryauricasa/img/logo-oftalmoluz.png" alt="" data-toggle='tooltip' data-placement="bottom" title='Oftalmoluz' style='width:100%;'>
+					<img src="../img/logo-oftalmoluz.png" alt="" data-toggle='tooltip' data-placement="bottom" title='Oftalmoluz' style='width:100%;'>
 					<br>
 					<!--Usuario-->
 					<div class="fb-follow" style='margin-top:7px'  data-placement="top" data-toggle='tooltip' title='Junior Yauricasa' data-href="https://www.facebook.com/JuniorYauricasa" data-layout="button" data-size="small" data-show-faces="false"></div>

@@ -28,6 +28,7 @@ if (isset($_POST['login'])) {
 		$errormsg = "Revisa los datos!!!";
 	}
 }
+
 ?>
 
 <!DOCTYPE html>
@@ -42,7 +43,7 @@ if (isset($_POST['login'])) {
 </head>
 <body>
 
-<nav class="navbar navbar-default" role="navigation">
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 	<div class="container-fluid">
 		<!-- add header -->
 		<div class="navbar-header">
@@ -52,7 +53,11 @@ if (isset($_POST['login'])) {
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="index.php" style="">Hoteltopia</a>
+			<a class="navbar-brand" href="index.php" style="">
+				<b>
+					Oftalmoluz
+				</b>
+			</a>
 		</div>
 		<!-- menu items -->
 		<div class="collapse navbar-collapse" id="navbar1">
@@ -64,12 +69,12 @@ if (isset($_POST['login'])) {
 	</div>
 </nav>
 
-<div class="container">
-	<div class="row">
+<div class="container" style="padding-top: 70px">
+	<div class="">
 		<div class="col-md-4 col-md-offset-4 well">
 			<form role="form" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post" name="loginform">
 				<fieldset>
-					<legend>Login</legend>
+					<img src="../img/logo-oftalmoluz.png" alt="" class="col-md-12" style="width: 100%; padding-bottom: 20px">
 					<!--div class="form-group clearfix">
 						<img src="http://www.iconsfind.com/wp-content/uploads/2016/10/20161014_58006bff8b1de.png" alt="" width="200px" class="img-responsive img-circle" style="margin:0 auto">
 					</div-->
@@ -95,7 +100,7 @@ if (isset($_POST['login'])) {
 	</div>
 	<div class="row">
 		<div class="col-md-4 col-md-offset-4 text-center">	
-		No tienes cuenta? <a href="register.php" class="btn btn-default btn-xs">Regitrate aqui</a>
+		No tienes cuenta? <a href="register.php" class="btn btn-default btn-xs">Registrate aqui</a>
 		</div>
 	</div>
 </div>

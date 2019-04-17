@@ -7,7 +7,7 @@
 		<?php echo $title; ?>
 	</title>
 	<meta name="viewport" CONTENT="width=device-width, initial-scale=1.0" />
-	<meta name="description" CONTENT="<?php echo $description; ?>" />
+	<meta name="Description" CONTENT="<?php echo $description; ?>" />
 	<!-- css -->
 	<link href="css/bootstrap.min.css" rel="stylesheet" />
 	<link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
@@ -15,8 +15,11 @@
 	<link href="css/flexslider.css" rel="stylesheet" />
 	<link href="css/style.css" rel="stylesheet" />
 
-    <meta name="google-site-verification" content=""/>
-    <meta name="robots" content="noindex,nofollow">
+    <meta name="google-site-verification" content="+nxGUDJ4QpAZ5l9Bsjdi102tLVC21AIh5d1Nl23908vVuFHs34="/>
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index,follow,snippet">
+    <meta name="google" content="sitelinkssearchbox" />
+    <meta name="google" content="translate" />
 
 	<!-- Theme skin -->
 	<link href="skins/default.css" rel="stylesheet" />
@@ -24,16 +27,11 @@
 	<!-- favicon -->
 	<link href="https://oftalmoluz.com/junioryauricasa/img/fav.png" rel="Shortcut Icon" />
 
-	<!-- wowslider -->
-	<!-- Start WOWSlider.com HEAD section -->
-	<link rel="stylesheet" type="text/css" href="engine1/style.css" />
-	<script type="text/javascript" src="engine1/jquery.js"></script>
-	<!-- End WOWSlider.com HEAD section -->
+
+
 
 	<style>
-		/*
-			contenido
-		*/
+		/* contenido */
 		.card {
 		    font-size: 1em;
 		    overflow: hidden;
@@ -90,9 +88,7 @@
 		    text-overflow: ellipsis;
 		}
 	</style>
-
 </head>
-
 <body>
 
 <!-- counter -->
@@ -132,7 +128,7 @@
 			        <li class="<?php echo $pestana4; ?>">
 			        	<a href="examenes">Exámenes</a>
 			        </li>
-					<li class="dropdown <?php echo $pestana5; ?>">
+					<!--li class="dropdown <?php echo $pestana5; ?>">
 						<a href="#" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">
 							Blog <b class=" icon-angle-down"></b>
 						</a>
@@ -143,7 +139,7 @@
 							<li><a href="#">Eventos</a></li>
 							<li><a href="#">Conferéncias</a></li>
 						</ul>
-					</li>
+					</li-->
 					<li class="<?php echo $pestana6; ?>"><a href="about">Nosotros</a></li>
 					<li class="<?php echo $pestana7; ?>"><a href="contact">Contactos</a></li>
 			      </ul>

@@ -19,104 +19,56 @@
 			<!-- start slider -->
 			<div class="container">
 				<div class="row" style="margin-bottom: 0px">
-					<div class="col-lg-12">
-						<!-- Start WOWSlider BODY section -->
-						<div id="wowslider-container1" style="margin-top: 50px">
-							<div class="ws_images">
-								<ul>
-									<li>
-										<img src="img/slides/1.jpg" alt="1" title="1" id="wows1_0" width="100%" />
-									</li>
-									<li>
-										<img src="img/slides/2.jpg" alt="2" title="2" id="wows1_1" width="100%" />
-									</li>
-									<li>
-										<img src="img/slides/3.jpg" alt="3" title="3" id="wows1_2" width="100%" />
-									</li>
-									<li>
-										<a href="#">
-											<img src="img/slides/4.jpg" alt="html slideshow" title="4" id="wows1_3" width="100%" />
-										</a>
-									</li>
-									<li>
-										<img src="img/slides/5.jpg" alt="5" title="5" id="wows1_4" width="100%" />
-									</li>
-								</ul>
-							</div>
-							<div class="ws_bullets">
-								<div>
-									<a href="#" title="1"><span><img src="data1/tooltips/1.jpg" alt="1"/>1</span></a>
-									<a href="#" title="2"><span><img src="data1/tooltips/2.jpg" alt="2"/>2</span></a>
-									<a href="#" title="3"><span><img src="data1/tooltips/3.jpg" alt="3"/>3</span></a>
-									<a href="#" title="4"><span><img src="data1/tooltips/4.jpg" alt="4"/>4</span></a>
-									<a href="#" title="5"><span><img src="data1/tooltips/5.jpg" alt="5"/>5</span></a>
-								</div>
-							</div>
-							<div class="ws_script" style="position:absolute;left:-99%">
-							</div>
-							<div class="ws_shadow"></div>
-						</div>	
+					<div class="col-lg-12" style="padding-right: 0px; padding-left: 0px">
+						
 						<!-- End WOWSlider BODY section -->
-
-
 							<!-- Slider -->
-							<!--div id="main-slider" class="flexslider">
+							<div id="main-slider" class="flexslider" style="margin-bottom: 0px">
 								<ul class="slides">
 									<li>
-										<img src="img/slides/5.jpg" alt="" />
-										<div class="flex-caption">
-											<h3>Titulo</h3>
-											<p>
-												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum ea asperiores pariatur.
-											</p>
-											<a href="#" class="btn btn-theme">Detalles</a>
-										</div>
-									</li>
-									<li>
 										<img src="img/slides/4.jpg" alt="" />
-										<div class="flex-caption">
+										<!--div class="flex-caption">
 											<h3>Titulo</h3>
 											<p>
 												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum ea asperiores pariatur.
 											</p>
 											<a href="#" class="btn btn-theme">Detalles</a>
-										</div>
-									</li>
-									<li>
-										<img src="img/slides/1.jpg" alt="" />
-										<div class="flex-caption">
-											<h3>Titulo</h3>
-											<p>
-												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum ea asperiores pariatur.
-											</p>
-											<a href="#" class="btn btn-theme">Detalles</a>
-										</div>
-									</li>
-									<li>
-										<img src="img/slides/2.jpg" alt="" />
-										<div class="flex-caption">
-											<h3>Titulo</h3>
-											<p>
-												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum ea asperiores pariatur.
-											</p>
-											<a href="#" class="btn btn-theme">Detalles</a>
-										</div>
+										</div-->
 									</li>
 									<li>
 										<img src="img/slides/3.jpg" alt="" />
-										<div class="flex-caption">
+										<!--div class="flex-caption">
 											<h3>Titulo</h3>
 											<p>
 												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum ea asperiores pariatur.
 											</p>
 											<a href="#" class="btn btn-theme">Detalles</a>
-										</div>
+										</div-->
+									</li>
+									<li>
+										<img src="img/slides/2.jpg" alt="" />
+										<!--div class="flex-caption">
+											<h3>Titulo</h3>
+											<p>
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum ea asperiores pariatur.
+											</p>
+											<a href="#" class="btn btn-theme">Detalles</a>
+										</div-->
+									</li>
+									<li>
+										<img src="img/slides/1.jpg" alt="" />
+										<!--div class="flex-caption">
+											<h3>Titulo</h3>
+											<p>
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum ea asperiores pariatur.
+											</p>
+											<a href="#" class="btn btn-theme">Detalles</a>
+										</div-->
 									</li>
 									
 								</ul>
-							</div-->
+							</div>
 							<!-- end slider -->
-						<br>
 						
 					</div>
 					<!--div class="col-md-4" style="height: 100px">
@@ -127,20 +79,11 @@
 				</div>
 				<div class="row" id="textoDeslizable">
 					<marquee style="border-top: solid 2px #0098da; border-bottom: solid 2px #0098da; padding: 3px 0px 3px 0px; background-color: #0098da; color: white">
-						<!--b>
-							Campaña de salud visual en 15 Noviembre <button type="button" class="btn btn-default btn-xs">Entérate todo aquí</button>
-							||
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque consequuntur repudiandae quae pariatur totam, illum, assumenda soluta qui est nihil, sed accusamus voluptatem quas deleniti similique itaque veritatis odit voluptas!
-							||
-							Campaña de salud visual en 15 Noviembre
-						</b-->
 						<b>
-							
-						<?php 
-							// select marque
-							include('consultas/select-marque.php'); 
-						?>
-
+							<?php 
+								// select marque
+								include('consultas/select-marque.php'); 
+							?>
 						</b>
 					</marquee>
 				</div>
@@ -160,17 +103,17 @@
 				</div>
 			</div>
 		</section-->
-		<section id="content" style="">
+		<section id="content" style=" padding: 10px 0 40px 0;">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-3">
 						<h4><b>Opciones</b> </h4>
 						<ul class="nav nav-pills nav-stacked nav-pills-stacked-example" style="font-weight: bolder; margin: 0px">
-							<li role="presentation" class="active" onclick="loadDocMisionVision()" id="loadDocMisionVision">
-								<a href="#textoDeslizable">Quiénes Somos?</a>
-							</li> 
-							<li role="presentation" onclick="loadDocCampanaOftalmologicas()" id="loadDocCampanaOftalmologicas">
+							<li role="presentation" class="active" onclick="loadDocCampanaOftalmologicas()" id="loadDocCampanaOftalmologicas">
 								<a href="#textoDeslizable">Campañas Oftalmológicas</a>
+							</li> 
+							<li role="presentation" onclick="loadDocMisionVision()" id="loadDocMisionVision">
+								<a href="#textoDeslizable">Quiénes Somos?</a>
 							</li> 
 							<li role="presentation" onclick="loadDocResponsabilidadSocial()" id="loadDocResponsabilidadSocial">
 								<a href="#textoDeslizable">Responsabilidad Social</a>
@@ -191,45 +134,7 @@
 					</div>
 
 					<div class="col-md-9" id="demo">
-						<!-- Mensaje Alert de Bienvenida -->
-						<div class="alert alert-info alert-dismissible fade in">
-						    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-						    <strong>Bienvenido!</strong> Recibe un cordial saludo. Su salud ocular es lo primero, nuestro centro brinda una adecuada prevención, diagnóstico y tratamiento de las enfermedades oculares. Estamos preparados, contamos con diversos equipos computarizados de alta tecnología indispensables para brindar una atención oftalmológica integral.
-						</div>
-						<!-- END Mensaje Alert de Bienvenida -->
-
-						<div class="col-lg-12" id="titulo">
-							<h1>Quienes somos? </h1>
-						</div>
-
-						<div class="col-md-6" id="mision">
-							<div class="box">
-								<div class="box-gray aligncenter">
-									<h4>Misión</h4>
-									<div class="icon">
-										<i class="fa fa-desktop fa-3x"></i>
-									</div>
-									<p>
-										Brindar un servicio oftalmológico especializado e integral con calidad y tecnología.
-									</p>
-
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6" id="vision">
-							<div class="box">
-								<div class="box-gray aligncenter">
-									<h4>Visión</h4>
-									<div class="icon">
-										<i class="fa fa-desktop fa-3x"></i>
-									</div>
-									<p>
-										Ser la institución lider en la excelencia de servicio, orientada a la atencion integral y seguridad del paciente
-									</p>
-
-								</div>
-							</div>
-						</div>
+						<?php include("CampanaOftalmologicas.php"); ?>
 					</div>
 				</div>
 
@@ -288,34 +193,75 @@
 		</section>
 
 <!-- Modal anuncios-->
-<div class="modal fade" id="myModal" role="dialog">
+<!--div class="modal fade" id="myModal" role="dialog">
 	<div class="modal-dialog">
-	  <!-- Modal content-->
 	  <div class="modal-content">
 	    <div class="modal-header">
 	      <button type="button" class="close" data-dismiss="modal">&times;</button>
 	      <h4 class="modal-title">Importante</h4>
 	    </div>
 	    <div class="modal-body">
-	      <!--p>Some text in the modal.</p-->
 	      <img src="img/anuncios/Hyo.jpg" alt="" class="img-responsive">
+	      <br>
+	      <a href="https://www.facebook.com/events/655104914907829/" class="btn btn-danger " style=""> Información</a>
 	    </div>
-	    <!--div class="modal-footer">
-	      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-	    </div-->
+	  </div>
+	</div>
+</div-->
+<!-- END Modal anuncios-->
+
+<div class="modal fade" id="myModal" role="dialog">
+	<div class="modal-dialog">
+	  <div class="modal-content">
+	    <div class="modal-header">
+	      <button type="button" class="close" data-dismiss="modal">&times;</button>
+	      <h4 class="modal-title">Importante</h4>
+	    </div>
+	    <div class="modal-body">
+	      
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			  <!-- Indicators -->
+			  <ol class="carousel-indicators">
+			    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			    <li data-target="#myCarousel" data-slide-to="1"></li>
+			  </ol>
+
+			  <!-- Wrapper for slides -->
+			  <div class="carousel-inner">
+			    <div class="item active">
+				    <img src="img/anuncios/Hyo.jpg" alt="" class="img-responsive">
+				    <br>
+				    <a href="https://www.facebook.com/events/655104914907829/" class="btn btn-danger " style="">Ir al Evento</a>
+					<a href="https://api.whatsapp.com/send?phone=51941103434&text=hola, he visto tu anuncio en http://oftalmoluz.com/ y me gustaria recibir informacón sobre la campaña: " class="btn btn-success" >Consultar</a>
+			    </div>
+
+			    <div class="item">
+			      <img src="img/anuncios/Hyo.jpg" alt="Chicago">
+			    </div>
+
+			  </div>
+
+			  <!-- Left and right controls -->
+			  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+			    <span class="glyphicon glyphicon-chevron-left"></span>
+			    <span class="sr-only">Previous</span>
+			  </a>
+			  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+			    <span class="glyphicon glyphicon-chevron-right"></span>
+			    <span class="sr-only">Next</span>
+			  </a>
+			</div>
+
+	    </div>
 	  </div>
 	</div>
 </div>
-<!-- END Modal anuncios-->
-
-
 
 <style>
 #demo{
 	transition: all .5s
 }	
 </style>
-
 
 <!-- Js -->
 <script type="text/javascript">
@@ -344,7 +290,6 @@
       //$("#flecha_huancayo").show();
     }
 
-
     function loadDocMisionVision() {
       var xhttp = new XMLHttpRequest();
       xhttp.onreadystatechange = function() {
@@ -366,6 +311,7 @@
       //mostrar flecha seleccionadora
       //$("#flecha_huancayo").show();
     }
+
     function loadDocCampanaOftalmologicas() {
       var xhttp = new XMLHttpRequest();
       xhttp.onreadystatechange = function() {
@@ -411,7 +357,6 @@
       //$("#flecha_huancayo").show();
     }
 
-
     // load Convenios
     function loadDocNuestrosConvenios() {
       var xhttp = new XMLHttpRequest();
@@ -434,8 +379,6 @@
       //mostrar flecha seleccionadora
       //$("#flecha_huancayo").show();
     }
-
-
 
     // load Convenios
     function loadDocTrabajaConNosotros() {
